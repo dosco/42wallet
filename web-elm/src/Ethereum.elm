@@ -529,7 +529,7 @@ mainView model =
             ]
         , div [ class "tc w-100 ph3" ]
             [ p [ class "f3 fw2 lh-copy" ]
-                [ text "Simple, Secure & Free"
+                [ text "Simple, Secure & Open Source"
                 ]
             , p [ class "f4 fw2 lh-copy" ]
                 [ text "Your keys stay safe on your device. This is a serverless wallet. Beta release."
@@ -542,16 +542,24 @@ mainView model =
                     , title "Readme Disclaimer"
                     , class "f6 dib pr2 mid-gray dim"
                     ]
-                    [ text "Terms of Use / Disclaimer"
+                    [ text "Terms of Use"
                     ]
                 , p [ class "dib mh2" ] []
                 , a
                     [ href "https://twitter.com/dosco"
                     , target "_blank"
-                    , title "Make by Vik"
+                    , title "Made by Vik"
                     , class "f6 dib pr2 mid-gray dim"
                     ]
-                    [ text "Make by Vik" ]
+                    [ text "Made by Vik" ]
+                , p [ class "dib mh2" ] []
+                , a
+                    [ href "https://github.com/dosco/42wallet"
+                    , target "_blank"
+                    , title "Github"
+                    , class "f6 dib pr2 mid-gray dim"
+                    ]
+                    [ text "Github" ]
                 ]
             ]
         ]
@@ -982,7 +990,7 @@ navView model =
                     [ class "mln2 dim black fw2 tc"
                     , onClick GoHome
                     ]
-                    [ text "Simple Ethereum Wallet"
+                    [ text "Open Source ETH Wallet"
                     ]
                 , if not <| isWalletLocked model then
                     span [ class "absolute top-0 right-1" ]

@@ -10350,7 +10350,7 @@ var _user$project$Ethereum$navView = function (model) {
 							},
 							{
 								ctor: '::',
-								_0: _elm_lang$html$Html$text('Simple Ethereum Wallet'),
+								_0: _elm_lang$html$Html$text('Open Source ETH Wallet'),
 								_1: {ctor: '[]'}
 							}),
 						_1: {
@@ -11282,7 +11282,7 @@ var _user$project$Ethereum$mainView = function (model) {
 							},
 							{
 								ctor: '::',
-								_0: _elm_lang$html$Html$text('Simple, Secure & Free'),
+								_0: _elm_lang$html$Html$text('Simple, Secure & Open Source'),
 								_1: {ctor: '[]'}
 							}),
 						_1: {
@@ -11339,7 +11339,7 @@ var _user$project$Ethereum$mainView = function (model) {
 										},
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html$text('Terms of Use / Disclaimer'),
+											_0: _elm_lang$html$Html$text('Terms of Use'),
 											_1: {ctor: '[]'}
 										}),
 									_1: {
@@ -11364,7 +11364,7 @@ var _user$project$Ethereum$mainView = function (model) {
 														_0: _elm_lang$html$Html_Attributes$target('_blank'),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$title('Make by Vik'),
+															_0: _elm_lang$html$Html_Attributes$title('Made by Vik'),
 															_1: {
 																ctor: '::',
 																_0: _elm_lang$html$Html_Attributes$class('f6 dib pr2 mid-gray dim'),
@@ -11375,10 +11375,48 @@ var _user$project$Ethereum$mainView = function (model) {
 												},
 												{
 													ctor: '::',
-													_0: _elm_lang$html$Html$text('Make by Vik'),
+													_0: _elm_lang$html$Html$text('Made by Vik'),
 													_1: {ctor: '[]'}
 												}),
-											_1: {ctor: '[]'}
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$p,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('dib mh2'),
+														_1: {ctor: '[]'}
+													},
+													{ctor: '[]'}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$a,
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$href('https://github.com/dosco/42wallet'),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$target('_blank'),
+																_1: {
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$title('Github'),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html_Attributes$class('f6 dib pr2 mid-gray dim'),
+																		_1: {ctor: '[]'}
+																	}
+																}
+															}
+														},
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html$text('Github'),
+															_1: {ctor: '[]'}
+														}),
+													_1: {ctor: '[]'}
+												}
+											}
 										}
 									}
 								}),
