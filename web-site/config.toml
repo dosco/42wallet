@@ -1,0 +1,36 @@
+baseurl             = ""
+relativeurls        = true
+languageCode        = "en-us"
+title               = ""
+theme               = ""
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+layoutdir           = "layouts"
+publishdir          = "../public"
+disableKinds        = ["categories", "tags", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+disableRSS          = true
+disableSitemap      = true
+disableHugoGeneratorInject = true
+disable404          = true
+enableRobotsTXT     = false
+
+[params]
+author        = ""
+name          = ""
+logo          = ""
+tagline       = ""
+description   = ""
+heroImage     = ""
+cta           = ""
+email         = ""
+
+localtime     = true # Show your current local time in contact section
+timezone      = "America/Los_Angeles" # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+dateform      = "Jan 2, 2006"
+dateformfull  = "Mon Jan 2 2006 15:04:05 EST"
+faviconfile   = "img/fav.ico"
+lang          = "en"
+
+# Social icons appear in introduction and contact section. Add as many more as you like.
+# Find icon names here: http://fontawesome.io/cheatsheet/

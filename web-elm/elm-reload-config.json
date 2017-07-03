@@ -1,0 +1,26 @@
+{
+  "watch": {
+    "baseDirectory": ".",
+    "fileTypes": ["elm", "html", "js"],
+    "exclusions": [
+      "node_modules",
+      "elm-stuff"
+    ],
+    "inclusions": []
+  },
+  "reload": {
+    "enabled": false,
+    "port": "auto",
+    "entryFile": ""
+  },
+  "variables": {},
+  "commands": [],
+  "after": [
+    "cat lib/lightwallet.min.js build/app.js lib/init.js lib/eth.js > ../web-site/static/app/app.js"
+  ],
+  "entryPoints": [{
+    "baseDirectory": "./",
+    "entryFile": "./src/App.elm",
+    "outputFile": "./build/app.js"
+  }]
+}
