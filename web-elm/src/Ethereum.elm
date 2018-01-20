@@ -624,7 +624,7 @@ seedPhraseView model =
                 ]
             , small [ class "f4 ul db mt4 mb4" ]
                 [ i [ class "fa fa-bolt mr2" ] []
-                , text "Loose this phrase listed above and you loose everything!"
+                , text "If you lose the phrase above, you will lose everything!"
                 ]
             , div [ class "db tc w-100 mt4" ]
                 [ a
